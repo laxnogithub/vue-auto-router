@@ -1,5 +1,5 @@
 {
-  "name": "vue-auto-router",
+  "name": "tao-vue-auto-router",
   "main": "./packages/index.js",
   "description": "自动配置vue-router",
   "version": "1.0.0",
@@ -14,13 +14,18 @@
     "build": "rm -rf dist && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name tao --dest lib packages/index.js",
-    "docs": "vuese gen && vuese serve --open"
+    "docs": "vuese gen && vuese serve --open",
+    "publish": "npm publish --access public"
   },
+  "files": [
+    "packages/",
+    "readme.md"
+  ],
   "dependencies": {
-    "core-js": "^3.6.4",
     "vue": "^2.6.12"
   },
   "devDependencies": {
+    "core-js": "^3.6.4",
     "@vue/cli-plugin-babel": "^4.5.6",
     "@vue/cli-plugin-eslint": "^4.5.6",
     "@vue/cli-service": "^4.5.6",
