@@ -24,7 +24,7 @@ class routerHandler {
 	 * @param {list} collection
 	 */
 	__concat(collection) {
-		// set parent.childen
+		// set parent.children
 		/**
 		 *由最底层级开始向外层合并，将子级对象并入父级children中
 		 */
